@@ -4,13 +4,15 @@ import Header from './components/Header/Header';
 import ContactForm from './pages/ContactForm';
 import Travel from './pages/Travel/Travel';
 import AboutMe from './pages/AboutMe/AboutMe';
+import Home from './pages/Home/Home';
 
 function App() {
   return (
     <div className="App">
       <Header/>
-      <AboutMe/>
-      <Travel/>
+      <Home />
+      <AboutMe />
+      <Travel />
       
     </div>
   );
