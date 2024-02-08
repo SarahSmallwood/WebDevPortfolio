@@ -1,0 +1,20 @@
+.carousel-caption-bottom{
+    font-family: Bodoni Moda;
+    color: black;
+    border: solid black;
+    background-color: rgb(219, 206, 186);
+}
+.carousel-image{
+    display: flex;
+}
+.carousel-container{
+    display: flex;
+    justify-content: center;
+    margin-left: 550px;
+}
+.projectTitle{
+    border: solid whitesmoke;
+    color: whitesmoke;
+    font-size: 20px;
+    font-family: BodoniMT;
+}

@@ -1,0 +1,55 @@
+.skills{
+    background-color: whitesmoke;
+}
+.skillTitle{
+    font-size: 40px;
+    font-family: BodoniMT;
+    color: whitesmoke;
+}
+.skillHead{
+    border: solid #454545;
+    background-color: #454545;
+    font-size: 20px;
+    color: whitesmoke;
+    font-family: Bodoni Moda;
+}
+.logosTop{
+    display: flex;
+    justify-content: space-evenly;
+}
+.logosBottom{
+    display: flex;
+    justify-content: space-evenly;
+}
+.html{
+    height: 90px;
+    width: 90px;
+}
+.css{
+    height: 90px;
+    width: 90px;
+}
+.js{
+    height: 90px;
+    width: 90px;
+}
+.mongo{
+    height: 90px;
+    width: 90px;
+}
+.python{
+    height: 90px;
+    width: 90px;
+}
+.react{
+    height: 90px;
+    width: 90px;
+}
+.node{
+    height: 90px;
+    width: 90px;
+}
+.sql{
+    height: 90px;
+    width: 90px;
+}
