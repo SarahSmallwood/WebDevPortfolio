@@ -5,6 +5,8 @@ import ContactForm from './pages/ContactForm';
 import Travel from './pages/Travel/Travel';
 import AboutMe from './pages/AboutMe/AboutMe';
 import Home from './pages/Home/Home';
+import Portfolio from './pages/Portfolio/Portfolio';
+import Skills from './pages/Skills/Skills';
 
 function App() {
   return (
@@ -13,6 +15,9 @@ function App() {
       <Home />
       <AboutMe />
       <Travel />
+      <Portfolio />
+      <Skills />
+
       
     </div>
   );
