@@ -1,17 +1,92 @@
-.grid-container{
+
+:root {
+    --background:  whitesmoke;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+}
+
+body {
+    background-color: var(--background);
+    border: solid black;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
+    place-items: center;
+    height: 100vh;
 }
-.layout{
-    text-align: center;
-    margin: 20px;
+.galleryTitle{
+    font-family: Bodoni Moda;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
 }
-.photoHead{
-    font-family: BodoniMT;
-    font-size: 25px;
+.galleryHead{
+    font-family: Bodoni Moda;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
 }
-.photoCard{
-    height: 200px;
-    width: 200px;
+
+.gallery {
+    display: flex;
+    gap: 1rem;
+    max-width: 80rem;
+}
+
+.card {
+    position: relative;
+    left: 0px;
+    width: 6rem;
+    border-radius: 1.2rem;
+    height: 20rem;
+    overflow: hidden;
+    background-color: var(--background);
+    transition: 0.4s ease-in-out;
+    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.3);
+    flex: 0.25;
+}
+
+.card img {
+    position: relative;
+    height: 20rem;
+    object-fit: cover;
+   
+}
+
+.card:hover {
+    flex: 2;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 1rem;
+}
+
+/* polish images center */
+.card:nth-child(1) img {
+    left: -8rem;
+}
+
+.card:nth-child(2) img {
+    left: -6rem;
+}
+
+.card:nth-child(3) img {
+    left: -8rem;
+}
+
+.setTwo {
+    display: flex;
+    gap: 1rem;
+    max-width: 80rem;
+}
+.setThree {
+    display: flex;
+    gap: 1rem;
+    max-width: 80rem;
+}
+.setFour {
+    display: flex;
+    gap: 1rem;
+    max-width: 80rem;
 }

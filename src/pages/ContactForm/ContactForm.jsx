@@ -1,4 +1,5 @@
 import React from 'react';
+import './ContactForm.css';
 import { Form, Input, TextArea, Button } from 'semantic-ui-react';
 import emailjs from '@emailjs/browser';
 import Swal from 'sweetalert2';
@@ -34,7 +35,9 @@ function ContactForm () {
               id='form-input-control-email'
               control={Input}
               label='Email'
-              name='user_email'
+              color='whitesmoke'
+              className='user_email'
+              fontFamily='Bodoni Moda'
               placeholder='Email…'
               required
               icon='mail'
@@ -45,6 +48,8 @@ function ContactForm () {
               control={Input}
               label='Name'
               name='user_name'
+              color='whitesmoke'
+              fontFamily='Bodoni Moda'
               placeholder='Name…'
               required
               icon='user circle'
@@ -54,7 +59,9 @@ function ContactForm () {
               id='form-textarea-control-opinion'
               control={TextArea}
               label='Message'
-              name='user_message'
+              color='whitesmoke'
+              fontFamily='Bodoni Moda'
+              className='user_message'
               placeholder='Message…'
               required
             />

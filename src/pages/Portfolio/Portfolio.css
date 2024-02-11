@@ -6,6 +6,7 @@
 }
 .carousel-image{
     display: flex;
+    justify-content: center;
 }
 .carousel-container{
     display: flex;
@@ -16,5 +17,8 @@
     border: solid whitesmoke;
     color: whitesmoke;
     font-size: 20px;
-    font-family: BodoniMT;
+    font-family: Bodoni Moda;
+}
+.galleryHead{
+    font-family: Bodoni Moda;
 }
