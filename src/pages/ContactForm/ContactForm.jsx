@@ -1,8 +1,8 @@
 import React from 'react';
-import './ContactForm.css';
 import { Form, Input, TextArea, Button } from 'semantic-ui-react';
 import emailjs from '@emailjs/browser';
 import Swal from 'sweetalert2';
+import './ContactForm.css';
 
 const SERVICE_ID = "service_t03jcbk";
 const TEMPLATE_ID = "template_o3nq39k";
@@ -35,9 +35,7 @@ function ContactForm () {
               id='form-input-control-email'
               control={Input}
               label='Email'
-              color='whitesmoke'
-              className='user_email'
-              fontFamily='Bodoni Moda'
+              name='user_email'
               placeholder='Email…'
               required
               icon='mail'
@@ -48,20 +46,17 @@ function ContactForm () {
               control={Input}
               label='Name'
               name='user_name'
-              color='whitesmoke'
-              fontFamily='Bodoni Moda'
               placeholder='Name…'
               required
               icon='user circle'
               iconPosition='left'
+              height='30px'
             />
             <Form.Field
               id='form-textarea-control-opinion'
               control={TextArea}
               label='Message'
-              color='whitesmoke'
-              fontFamily='Bodoni Moda'
-              className='user_message'
+              name='user_message'
               placeholder='Message…'
               required
             />

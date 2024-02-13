@@ -1,5 +1,6 @@
 import './AboutMe.css';
 import React from 'react';
+import ContactButton from '../../components/ContactButton/ContactButton';
 
 
 function AboutMe() {
@@ -14,6 +15,7 @@ function AboutMe() {
         <div className='right'>
           <img alt='portrait' className='sarahPic'src='https://media.discordapp.net/attachments/1135935108650635327/1135936946225557624/7C07E77B-A612-4BDB-A2A0-0CB41D655CD9.JPG?ex=65afc838&is=659d5338&hm=d1f1b12e3ab32fac2344d69953a6d90ecffd3fcc6c95669452e04228acb3ccb9&=&format=webp&width=600&height=405'/>
         </div>
+        <ContactButton />
     </div>
   )
 }
