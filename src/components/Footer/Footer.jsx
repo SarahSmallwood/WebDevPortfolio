@@ -17,7 +17,7 @@ function Footer() {
     <div className='bottomRow'>
       <div className='location'>
         <img className='locationPin' alt='location pin logo' src='https://png.pngtree.com/png-vector/20190420/ourmid/pngtree-location-vector-icon-png-image_963325.jpg' />
-        <div className='locationName'>SCOTTSDALE</div>
+        <div className='locationName'>SCOTTSDALE , AZ</div>
       </div>
       <div className='email'>
         <img className='emailLogo' alt='white envelope email logo' src='https://i.pinimg.com/originals/b2/a3/fb/b2a3fbd8bd83857c74ff274ecd79c40f.png' />
