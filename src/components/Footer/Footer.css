@@ -12,3 +12,59 @@
     align-items: center;
     color: whitesmoke;
 }
+.footer{
+    border: solid whitesmoke;
+}
+.bottomRow{
+    background-color: black;
+    display: flex;
+    height: 250px;
+}
+.location{
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+}
+.locationPin{
+    display: flex;
+    margin-left: 40%;
+    margin-top: 70px;
+    height: 60px;
+    width: 60px;
+    background-color: black;
+}
+.locationName{
+    height: 35px;
+    font-family: Bodoni Moda;
+    font-weight: 700;
+}
+.email{
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+}
+.emailLogo{
+    display: flex;
+    height: 70px;
+    width: 70px;
+    margin-top: 65px;
+    margin-left: 40%;
+}
+.emailName{
+    display: flex;
+    height: 50px;
+    margin-left: 15%;
+    margin-top: 5px;
+    width: 250px;
+    font-weight: 600;
+    text-decoration: none;
+    font-family: Bodoni Moda;
+    font-size: 20px;
+    color: whitesmoke;
+}
+.nameLogo{
+    border: solid yellow;
+    display: flex;
+    width: 33%;
+}
