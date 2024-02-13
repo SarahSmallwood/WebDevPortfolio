@@ -22,9 +22,9 @@
   font-family: Tomatoes;
 }
 .icon{
-  margin-left: 100px;
+  margin-left: 120px;
   display: flex;
-  width: 100px;
+  width: 150px;
   justify-content: space-evenly;
   color: whitesmoke;
   height: 30px;

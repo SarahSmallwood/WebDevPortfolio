@@ -6,7 +6,7 @@ import ContactButton from '../../components/ContactButton/ContactButton';
 function AboutMe() {
   return (
     <div className='AboutMe'>
-        <div className='left'>
+        <div className='aboutText'>
           <h2 className='sarah'>LET'S DESIGN SOMETHING INCREDIBLE </h2>
           <p className='about'>
           IF YOU ARE SEARCHING FOR A DESIGNER TO CREATE YOUR NEXT WEBSITE, LOOK NO FURTHER. I HAVE TRAVELED THE WORLD, AND HAVE EARTH'S BEAUTY AS INSPIRATION. TOGETHER WE CAN MAKE YOUR DREAM DESIGN IDEAS COME TO FRUITION. CLICK THE LINK BELOW AND LET'S CREATE TOGETHER!

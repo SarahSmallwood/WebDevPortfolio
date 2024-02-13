@@ -23,7 +23,7 @@ function Footer() {
         <img className='emailLogo' alt='white envelope email logo' src='https://i.pinimg.com/originals/b2/a3/fb/b2a3fbd8bd83857c74ff274ecd79c40f.png' />
         <a className='emailName' href="sarahsmallwood56@gmail.com"> sarahsmallwood56@gmail.com</a>
       </div>
-      <div className='nameLogo'></div>
+      <div className='otherLinks'></div>
     </div>
     </div>
   )
