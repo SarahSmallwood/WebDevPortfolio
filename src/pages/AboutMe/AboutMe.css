@@ -1,10 +1,11 @@
 .AboutMe{
+    border: solid black;
+    box-shadow: 10px 5px 10px black;
     background-color: whitesmoke;
     display: flex;
-    border: solid whitesmoke;
-    border-width: 0.9em;
-  }
-  .about{
+    border-width: 0.4em;
+}
+.about{
     display: flex;
     justify-content: space-around;
     font-size: 20px;
@@ -12,18 +13,18 @@
     width: 500px;
     height: 270px;
     margin-left: 10px;
-  }
-  .left{
+}
+.left{
     width: 50%;
-  }
-  .right{
+}
+.right{
     width: 50%;
-  }
-  .sarahPic{
+}
+.sarahPic{
     margin-top: 30px;
     height: 350px;
-  }
-  .sarah{
+}
+.sarah{
     font-family: Bodoni Moda;
     margin-top: 50px;
-  }
+}

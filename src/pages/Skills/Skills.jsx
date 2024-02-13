@@ -6,7 +6,7 @@ function Skills() {
     <div className="skills">
       
 
-      <h2 className='skillHead'>Front End</h2>
+      <h2 className='skillHead'>FRONT END</h2>
 
       <div className="logosTop">
 
@@ -18,7 +18,7 @@ function Skills() {
       </div>
   
 
-      <h2 className='skillHead'>Back End</h2>
+      <h2 className='skillHead'>BACK END</h2>
       
       
       <div className='logosBottom'>

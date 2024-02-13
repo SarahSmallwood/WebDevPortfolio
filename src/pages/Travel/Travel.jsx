@@ -9,7 +9,7 @@ const Travel = () => {
         <h2 className='galleryTitle'>EXPLORE THE WORLD</h2>
         <p className='galleryHead'>PHOTOGRAPHY IS THE PASSION, THE PHOTO IS THE ART, AND THE SUBJECT IS EARTH'S ENDLESS BEAUTY...</p>
       <TravelGallery />
-      <div className="gallery">
+      <div className="travelGallery">
         {/* Gallery for photos */}
         <figure className="card">
         <img alt="" src="https://ik.imagekit.io/v64tipjbn/SarahPortfolio/Egypt/IMG_8819.jpg"/>

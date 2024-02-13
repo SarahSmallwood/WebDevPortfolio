@@ -1,23 +1,31 @@
 .skills{
+    border: solid #303030;
     background-color: whitesmoke;
+    margin-top: 20px;
+    border-width: 0.4em;
+    box-shadow: 10px 5px 10px black;
 }
 .skillTitle{
     font-size: 40px;
-    font-family: BodoniMT;
+    font-family: Bodoni Moda;
     color: whitesmoke;
 }
 .skillHead{
-    border: solid #454545;
-    background-color: #454545;
+    font-weight: 700;
+    height: 40px;
+    border: solid #303030;
+    background-color: #303030;
     font-size: 20px;
     color: whitesmoke;
     font-family: Bodoni Moda;
 }
 .logosTop{
+    margin: 10px;
     display: flex;
     justify-content: space-evenly;
 }
 .logosBottom{
+    margin: 10px;
     display: flex;
     justify-content: space-evenly;
 }

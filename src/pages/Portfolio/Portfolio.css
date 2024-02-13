@@ -1,3 +1,10 @@
+.gallery{
+    border: solid black;
+    box-shadow: 10px 5px 10px black;
+    background-color: whitesmoke;
+    display: flex;
+    border-width: 0.4em;
+}
 .carousel-caption-bottom{
     font-family: Bodoni Moda;
     color: black;
