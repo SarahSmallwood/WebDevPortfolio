@@ -45,8 +45,8 @@ return (
         <Carousel
           data={data}
           thumbnails={true}
-          thumbnailWidth="120px"
-          thumbnailHeight="160px"
+          thumbnailWidth="150px"
+          thumbnailHeight="200px"
           border= "black"
           font-family= "Bodoni Moda"
         />

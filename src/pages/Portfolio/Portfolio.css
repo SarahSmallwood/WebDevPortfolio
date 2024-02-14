@@ -3,29 +3,35 @@
     box-shadow: 10px 5px 10px black;
     background-color: whitesmoke;
     display: flex;
-    border-width: 0.4em;
+    height: 600px;
+    border-width: 0.3em;
 }
 .carousel-caption-bottom{
     font-family: Bodoni Moda;
-    color: black;
     border: solid black;
-    background-color: rgb(219, 206, 186);
+    background-color: rgb(26, 26, 25);
 }
 .carousel-image{
     display: flex;
     justify-content: center;
+    border: solid salmon;
 }
 .carousel-container{
     display: flex;
+    margin-left: 100px;
     justify-content: center;
-    margin-left: 550px;
+    border: solid green;
 }
 .projectTitle{
-    border: solid whitesmoke;
+    /* border: solid whitesmoke; */
     color: whitesmoke;
     font-size: 20px;
     font-family: Bodoni Moda;
+    border: solid blue;
 }
 .galleryHead{
+    height: 70px;
+    font-size: 25px;
     font-family: Bodoni Moda;
+    border: solid red;
 }
