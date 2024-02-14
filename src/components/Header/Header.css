@@ -21,8 +21,14 @@
   color: whitesmoke;
   font-family: Tomatoes;
 }
+.navIcons{
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: 300px;
+  position: relative;
+  width: 500px;
+}
 .icon{
-  margin-left: 120px;
   display: flex;
   width: 150px;
   justify-content: space-evenly;

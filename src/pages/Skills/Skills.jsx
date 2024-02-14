@@ -25,7 +25,7 @@ function Skills() {
         
       <img alt='' src="https://seeklogo.com/images/N/nodejs-logo-D26404F360-seeklogo.com.png" className="node" />
       <img alt='' src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1869px-Python-logo-notext.svg.png" className="python" />
-      <img alt='' src="https://w7.pngwing.com/pngs/956/695/png-transparent-mongodb-original-wordmark-logo-icon-thumbnail.png" className="mongo" />
+      <img alt='' src="https://banner2.cleanpng.com/20180702/bgt/kisspng-mongodb-database-nosql-postgresql-mongo-5b39f9e3445fa6.5652746415305261792801.jpg" className="mongo" />
       <img alt='' src="https://w7.pngwing.com/pngs/170/924/png-transparent-microsoft-sql-server-microsoft-azure-sql-database-microsoft-text-logo-microsoft-azure.png" className="sql" />
 
     </div>
