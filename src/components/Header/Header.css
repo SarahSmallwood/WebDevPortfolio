@@ -1,6 +1,6 @@
 /* Desktop */
 
-@media (min-width: 800px) {
+@media (min-width: 1200px) {
 .header{
   display: flex;
   width: 100%;

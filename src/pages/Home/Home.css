@@ -4,19 +4,20 @@
 .homePage{
     width: 100%;
     display: flex;
+    position: relative;
     margin-top: 2px;
-    padding: 10px;
     height: 440px;
-    background-image: url("https://media.discordapp.net/attachments/1135935108650635327/1204969947428823051/IMG_7449_4.JPG?ex=65d6aab6&is=65c435b6&hm=050a490110df63a322ea79d66ad0b3bc6c0244d00bfb5e386cea6939dd9e4546&=&format=webp&width=1400&height=466");
-    background-size: cover;
+    background-image: url("https://media.discordapp.net/attachments/1135935108650635327/1204969947428823051/IMG_7449_4.JPG?ex=65d6aab6&is=65c435b6&hm=050a490110df63a322ea79d66ad0b3bc6c0244d00bfb5e386cea6939dd9e4546&=&format=webp&width=1400&height=466"); 
     background-repeat: no-repeat;
+    border: solid black;
+    box-shadow: 10px 5px 10px black;
 }
 .homeName{
     display: flex;
     margin-top: 20%;
     text-align: center;
     height: 120px;
-    line-height: 60px;
+    /* line-height: 60px; */
     float: none;
     font-family: Bodoni Moda;
     font-size: 40px;
