@@ -23,7 +23,9 @@ function App() {
       <ContactForm />
       <br/>
       <Footer />
-
+      <Routes>
+      <Route path='/travel' element={<Travel />} />
+      </Routes>
       
     </div>
   );
