@@ -1,9 +1,28 @@
 .contactForm{
-    background-image: url("https://media.discordapp.net/attachments/1135935108650635327/1204969947428823051/IMG_7449_4.JPG?ex=65d6aab6&is=65c435b6&hm=050a490110df63a322ea79d66ad0b3bc6c0244d00bfb5e386cea6939dd9e4546&=&format=webp&width=1225&height=466");
+    background-image: url("https://media.discordapp.net/attachments/1135935108650635327/1204969947428823051/IMG_7449_4.JPG?ex=65f25a36&is=65dfe536&hm=ef23829782a5e87717423b2fcba1b3ac1610867bf14d5eedfb0f31ea466ad341&=&format=webp&width=1150&height=814");
     border: solid whitesmoke;
     height: 450px;
     display: flex;
     justify-content: space-between;
     background-size: cover;
     background-repeat: no-repeat;
+}
+#form-textarea-control-opinion{
+    border: solid blue;
+    height: 250px;
+    width: 700px;
+    margin-top: 10px;
+}
+#label{
+    font-family: Bodoni Moda;
+    color: whitesmoke;
+}
+.ui form{
+    border: solid blue;
+}
+.required field {
+    border: saddlebrown;
+}
+.ui black button{
+    border: solid salmon;
 }
