@@ -1,11 +1,12 @@
 .contactForm{
-    background-image: url("https://media.discordapp.net/attachments/1135935108650635327/1204969947428823051/IMG_7449_4.JPG?ex=65f25a36&is=65dfe536&hm=ef23829782a5e87717423b2fcba1b3ac1610867bf14d5eedfb0f31ea466ad341&=&format=webp&width=1150&height=814");
-    border: solid whitesmoke;
+    background-image: url("https://media.discordapp.net/attachments/1135935108650635327/1204969947428823051/IMG_7449_4.JPG?ex=66588676&is=665734f6&hm=67553cd642b63e8b300b39b6dbac83064bad7e5c336c56021f624b82e0e838f1&=&format=webp&width=1205&height=853");
     height: 450px;
-    display: flex;
-    justify-content: space-between;
+    /* display: flex;
+    justify-content: space-between; */
     background-size: cover;
     background-repeat: no-repeat;
+    border: solid rgb(30, 30, 30);
+    box-shadow: 10px 5px 10px rgb(30, 30, 30);
 }
 #form-textarea-control-opinion{
     border: solid blue;
@@ -25,4 +26,13 @@
 }
 .ui black button{
     border: solid salmon;
+}
+.contactMe{
+    height: 60px;
+    width: 200px;
+    font-family: Bodoni Moda;
+    font-size: 20px;
+    font-weight: 500;
+    color: whitesmoke;
+    background-color: #303030;
 }

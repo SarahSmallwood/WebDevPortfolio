@@ -7,14 +7,14 @@
     position: relative;
     margin-top: 4px;
     height: 440px;
-    background-image: url("https://media.discordapp.net/attachments/1135935108650635327/1204969947428823051/IMG_7449_4.JPG?ex=65f25a36&is=65dfe536&hm=ef23829782a5e87717423b2fcba1b3ac1610867bf14d5eedfb0f31ea466ad341&=&format=webp&width=1450&height=654"); 
+    background-image: url("https://media.discordapp.net/attachments/1135935108650635327/1204969947428823051/IMG_7449_4.JPG?ex=6655e376&is=665491f6&hm=25881b8d9fad492abe92ef3fa55d68385b1e081e5690b2930f2f31373e7c85ab&=&format=webp&width=1405&height=853"); 
     background-repeat: no-repeat;
-    border: solid black;
-    box-shadow: 10px 5px 10px black;
+    border: solid peachpuff;
+    box-shadow: 10px 5px 10px rgb(30, 30, 30);
 }
 .homeName{
     display: flex;
-    margin-top: 20%;
+    margin-top: 5%;
     text-align: center;
     height: 120px;
     line-height: 60px;
@@ -25,8 +25,8 @@
     font-weight: bolder;
     backdrop-filter: blur(3px);
     text-shadow:
-    1px 1px 2px black,
-    0 0 1em black,
-    0 0 0.2em black;
+    1px 1px 2px peachpuff,
+    0 0 1em peachpuff,
+    0 0 0.2em peachpuff;
 }
 }

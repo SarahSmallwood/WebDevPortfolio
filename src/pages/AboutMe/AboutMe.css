@@ -1,13 +1,13 @@
 
 @media (min-width: 800px) {
 .AboutMe{
-    border: solid black;
-    box-shadow: 10px 5px 10px black;
+    border: solid whitesmoke;
+    box-shadow: 10px 5px 10px rgb(30, 30, 30);
     background-color: whitesmoke;
     display: flex;
     justify-content: space-between;
     border-width: 0.4em;
-    height: 500px;
+    height: 450px;
 }
 .about{
     display: flex;
@@ -35,8 +35,7 @@
     width: 100%;
     margin-top: 5%;
     margin-right: 5%;
-    border: solid black;
-    border-width: 0.3em;
+    border: solid peachpuff;
 }
 .sarah{
     display: flex;

@@ -34,7 +34,6 @@ function ContactForm () {
             <Form.Field
               id='form-input-control-email'
               control={Input}
-              label='Email'
               name='user_email'
               placeholder='Email…'
               required
@@ -44,7 +43,6 @@ function ContactForm () {
             <Form.Field
               id='form-input-control-last-name'
               control={Input}
-              label='Name'
               name='user_name'
               placeholder='Name…'
               required
@@ -55,12 +53,11 @@ function ContactForm () {
             <Form.Field
               id='form-textarea-control-opinion'
               control={TextArea}
-              label='Message'
               name='user_message'
               placeholder='Message…'
               required
             />
-            <Button type='submit' color='black'>Submit</Button>
+            <Button className='contactMe' type='submit' color='white'>SUBMIT</Button>
           </Form>
         </div>
       );
