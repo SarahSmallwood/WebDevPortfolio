@@ -1,6 +1,9 @@
 import React from 'react';
 import './Footer.css';
 import { SocialIcon } from 'react-social-icons';
+import { IoMailOpenOutline } from "react-icons/io5";
+import { IoLocationOutline } from "react-icons/io5";
+import { IoEarthOutline } from "react-icons/io5";
 
 
 function Footer() {
@@ -16,14 +19,15 @@ function Footer() {
     </footer>
     <div className='bottomRow'>
       <div className='location'>
-        <img className='locationPin' alt='location pin logo' src='https://png.pngtree.com/png-vector/20190420/ourmid/pngtree-location-vector-icon-png-image_963325.jpg' />
+      <IoLocationOutline className= 'react-icons'/>
         <h3 className='locationName'>SCOTTSDALE , AZ</h3>
       </div>
       <div className='email'>
-        <img className='emailLogo' alt='white envelope email logo' src='https://i.pinimg.com/originals/b2/a3/fb/b2a3fbd8bd83857c74ff274ecd79c40f.png' />
+      <IoMailOpenOutline className= 'react-icons'/>
         <a className='emailName' href="sarahsmallwood56@gmail.com"> sarahsmallwood56@gmail.com</a>
       </div>
       <div className='otherLinks'>
+      <IoEarthOutline  className= 'react-icons'/>
         <h3 className='containerThree'>SARAH ELIZABETH SMALLWOOD</h3>
       </div>
     </div>

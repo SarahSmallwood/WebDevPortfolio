@@ -30,6 +30,7 @@ function ContactForm () {
       };
     return (
         <div className='contactForm'>
+          <div className='contactTitle'>CONTACT</div>
           <Form onSubmit={handleOnSubmit}>
             <Form.Field
               id='form-input-control-email'

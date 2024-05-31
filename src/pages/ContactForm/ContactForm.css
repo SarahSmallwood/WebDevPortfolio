@@ -1,16 +1,26 @@
 .contactForm{
-    background-image: url("https://media.discordapp.net/attachments/1135935108650635327/1204969947428823051/IMG_7449_4.JPG?ex=66588676&is=665734f6&hm=67553cd642b63e8b300b39b6dbac83064bad7e5c336c56021f624b82e0e838f1&=&format=webp&width=1205&height=853");
+    background-image: url("https://media.discordapp.net/attachments/1135935108650635327/1204969947428823051/IMG_7449_4.JPG?ex=66588676&is=665734f6&hm=67553cd642b63e8b300b39b6dbac83064bad7e5c336c56021f624b82e0e838f1&=&format=webp&width=1205&height=553");
     height: 450px;
-    /* display: flex;
-    justify-content: space-between; */
+    display: flex;
+    justify-content: center;
     background-size: cover;
     background-repeat: no-repeat;
+    font-family: Bodoni Moda;
     border: solid rgb(30, 30, 30);
     box-shadow: 10px 5px 10px rgb(30, 30, 30);
 }
+.contactTitle{
+    height: 60px;
+    margin-top: 13%;
+    margin-right: 10%;
+    font-family: Bodoni Moda;
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+}
 #form-textarea-control-opinion{
-    border: solid blue;
-    height: 250px;
+    font-family: Bodoni Moda;
+    height: 200px;
     width: 700px;
     margin-top: 10px;
 }
@@ -18,21 +28,31 @@
     font-family: Bodoni Moda;
     color: whitesmoke;
 }
+#form-input-control-email{
+    font-family: Bodoni Moda;
+}
+#form-input-control-last-name{
+    font-family: Bodoni Moda;
+}
 .ui form{
     border: solid blue;
+    font-family: Bodoni Moda;
 }
-.required field {
+/* .requiredfield {
     border: saddlebrown;
+    font-family: Bodoni Moda;
 }
-.ui black button{
+.uiblack button{
     border: solid salmon;
-}
+} */
 .contactMe{
-    height: 60px;
-    width: 200px;
+    height: 55px;
+    width: 150px;
+    margin-top: 5px;
     font-family: Bodoni Moda;
     font-size: 20px;
     font-weight: 500;
     color: whitesmoke;
-    background-color: #303030;
+    background-color: rgb(16, 107, 137);
+    border: none;
 }

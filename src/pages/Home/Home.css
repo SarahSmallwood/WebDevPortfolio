@@ -9,7 +9,7 @@
     height: 440px;
     background-image: url("https://media.discordapp.net/attachments/1135935108650635327/1204969947428823051/IMG_7449_4.JPG?ex=6655e376&is=665491f6&hm=25881b8d9fad492abe92ef3fa55d68385b1e081e5690b2930f2f31373e7c85ab&=&format=webp&width=1405&height=853"); 
     background-repeat: no-repeat;
-    border: solid peachpuff;
+    border: solid rgb(16, 107, 137);
     box-shadow: 10px 5px 10px rgb(30, 30, 30);
 }
 .homeName{
@@ -25,8 +25,8 @@
     font-weight: bolder;
     backdrop-filter: blur(3px);
     text-shadow:
-    1px 1px 2px peachpuff,
-    0 0 1em peachpuff,
-    0 0 0.2em peachpuff;
+    1px 1px 2px rgb(16, 107, 137),
+    0 0 1em rgb(16, 107, 137),
+    0 0 0.2em rgb(16, 107, 137);
 }
 }
