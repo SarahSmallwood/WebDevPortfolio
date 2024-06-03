@@ -4,9 +4,10 @@ import './Home.css';
 function Home() {
   return (
     <div className='homePage'>
-      <p className='homeName'>
-        IF YOU THINK THE DESIGN IS BEAUTIFUL, YOU SHOULD HEAR THE STORY BEHIND IT...
-      </p>
+      <h1 className='homeName'>
+        NEW CREATIONS LOADING...
+      </h1>
+      <div className='color-overlay'/>
     </div>
   )
 }

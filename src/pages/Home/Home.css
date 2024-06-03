@@ -7,26 +7,35 @@
     position: relative;
     margin-top: 4px;
     height: 440px;
-    background-image: url("https://media.discordapp.net/attachments/1135935108650635327/1204969947428823051/IMG_7449_4.JPG?ex=6655e376&is=665491f6&hm=25881b8d9fad492abe92ef3fa55d68385b1e081e5690b2930f2f31373e7c85ab&=&format=webp&width=1405&height=853"); 
+    background-image: url("https://media.discordapp.net/attachments/1135935108650635327/1204969947428823051/IMG_7449_4.JPG?ex=665a80b6&is=66592f36&hm=979198cd58d05eb8e58f871853115ddb1470906df07eb61f40d88ebad76eb4f9&=&format=webp&width=1414&height=560"); 
     background-repeat: no-repeat;
-    border: solid rgb(16, 107, 137);
+    /* border: solid rgb(12, 82, 106); */
     box-shadow: 10px 5px 10px rgb(30, 30, 30);
 }
 .homeName{
     display: flex;
-    margin-top: 5%;
+    margin-top: 22%;
     text-align: center;
     height: 120px;
     line-height: 60px;
     float: none;
     font-family: Bodoni Moda;
     font-size: 40px;
-    color: whitesmoke;
-    font-weight: bolder;
+    color: white;
+    /* font-weight: 300; */
     backdrop-filter: blur(3px);
-    text-shadow:
+    /* text-shadow:
     1px 1px 2px rgb(16, 107, 137),
-    0 0 1em rgb(16, 107, 137),
-    0 0 0.2em rgb(16, 107, 137);
+    0 0 1em whitesmoke,
+    0 0 0.2em rgb(16, 107, 137); */
+}
+.color-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0,0,0,.1);
+    pointer-events: none;
 }
 }

@@ -1,0 +1,41 @@
+.personalPage{
+    border: solid yellow;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(12, 82, 106);
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.element1{
+    border: solid fuchsia;
+    width: 33%;
+    height: 400px;
+    margin-top: 10px;
+    padding-left: 20px;
+    font-family: Bodoni Moda;
+    font-size: 55px;
+    display: flex;
+    text-align: right;
+    color: whitesmoke;
+}
+.element2{
+    border: solid blue;
+    width: 33%;
+    height: 400px;
+    margin-top: 10px;
+    font-size: 15px;
+    font-family: Bodoni Moda;
+    color: rgb(201, 199, 199);
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    line-height: 2.5;
+}
+.element3{
+    border: solid green;
+    width: 33%;
+    height: 400px;
+    margin-top: 10px;
+}
