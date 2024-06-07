@@ -6,28 +6,30 @@
     display: flex;
     position: relative;
     margin-top: 4px;
-    height: 440px;
-    background-image: url("https://media.discordapp.net/attachments/1135935108650635327/1204969947428823051/IMG_7449_4.JPG?ex=665a80b6&is=66592f36&hm=979198cd58d05eb8e58f871853115ddb1470906df07eb61f40d88ebad76eb4f9&=&format=webp&width=1414&height=560"); 
+    height: 400px;
+    background-image: url("https://ik.imagekit.io/v64tipjbn/Final%20Portfolio/portfolio8.png?updatedAt=1717716294742"); 
     background-repeat: no-repeat;
     /* border: solid rgb(12, 82, 106); */
     box-shadow: 10px 5px 10px rgb(30, 30, 30);
 }
 .homeName{
     display: flex;
-    margin-top: 22%;
+    margin-top: 26%;
+    margin-left: 125px;
+    font-weight: 700;
     text-align: center;
-    height: 120px;
+    height: 60px;
     line-height: 60px;
     float: none;
     font-family: Bodoni Moda;
-    font-size: 40px;
-    color: white;
+    font-size: 50px;
+    color: rgb(7, 7, 7);
     /* font-weight: 300; */
     backdrop-filter: blur(3px);
-    /* text-shadow:
-    1px 1px 2px rgb(16, 107, 137),
+    text-shadow:
+    1px 1px 2px rgb(5, 5, 5),
     0 0 1em whitesmoke,
-    0 0 0.2em rgb(16, 107, 137); */
+    0 0 0.2em whitesmoke;
 }
 .color-overlay{
     position: absolute;

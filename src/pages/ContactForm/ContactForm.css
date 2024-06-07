@@ -1,5 +1,5 @@
 .contactForm{
-    background-image: url("https://media.discordapp.net/attachments/1135935108650635327/1204969947428823051/IMG_7449_4.JPG?ex=66588676&is=665734f6&hm=67553cd642b63e8b300b39b6dbac83064bad7e5c336c56021f624b82e0e838f1&=&format=webp&width=1205&height=553");
+    background-image: url("https://ik.imagekit.io/v64tipjbn/Final%20Portfolio/portfolio8.png?updatedAt=1717716294742");
     height: 450px;
     display: flex;
     justify-content: center;
@@ -53,6 +53,6 @@
     font-size: 20px;
     font-weight: 500;
     color: whitesmoke;
-    background-color: rgb(16, 107, 137);
+    background-color: rgb(12, 82, 106);
     border: none;
 }

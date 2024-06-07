@@ -1,27 +1,29 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import './Header.css';
+// import AboutMe from '../../pages/AboutMe/AboutMe';
+// import ContactForm from '../../pages/ContactForm/ContactForm';
+// import TravelGallery from '../TravelGallery/TravelGallery';
+// import Gallery from '../Portfolio/Portfolio';
 
 function Header() {
   return (
     <div className='header'>
-        <button className='homeButton' as={Link} to='/'>Sarah Elizabeth</button>
+        <button className='homeButton' as={Link} to='/App'>Sarah Elizabeth</button>
         <div className='navIcons'>
-        <Link href="/aboutme">
-            <div className="icon">ABOUT ME</div>
-        </Link>
-        <Link href="/Portfolio">
-            <div className="icon">PORTFOLIO</div>
-        </Link>
-        <Link href="/Travel">
-            <div className="icon">GALLERY</div>
-        </Link>
-        <Link to="/ContactForm">
-            <div className="icon">CONTACT ME</div>
-        </Link>
+        <Link path="/gallery">
+            <button className="icon">PORTFOLIO</button>
+          </Link>
+          <Link to="/travel">
+            <button className="icon">GALLERY</button>
+          </Link>
+          <Link to="/contactform">
+            <button className="icon">SKILLS</button>
+          </Link>
+          <Link to="/aboutme">
+            <button className="icon">ABOUT ME</button>
+          </Link>
         </div>
-        
-
     </div>
   )
 }

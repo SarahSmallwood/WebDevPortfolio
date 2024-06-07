@@ -15,7 +15,7 @@ function AboutMe() {
           <ContactButton />
         </div>
         <div className='right'>
-          <img alt='portrait' className='sarahPic'src='https://media.discordapp.net/attachments/1135935108650635327/1195078014199922758/IMG_4646.jpg?ex=665a1ca2&is=6658cb22&hm=7c5a7132c1579505f2b39735205025f43c42e62fdb1273fdfeffd3c9e57e50a8&=&format=webp&width=1146&height=860'/>
+          <img alt='portrait' className='sarahPic'src='https://ik.imagekit.io/v64tipjbn/Final%20Portfolio/portfolio7.png?updatedAt=1717716297528'/>
         </div>
     </div>
   )

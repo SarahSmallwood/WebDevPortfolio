@@ -1,5 +1,5 @@
 .personalPage{
-    border: solid yellow;
+    /* border: solid yellow; */
     height: 500px;
     width: 100%;
     display: flex;
@@ -7,35 +7,43 @@
     background-color: rgb(12, 82, 106);
     padding-top: 40px;
     padding-bottom: 40px;
+    box-shadow: 10px 5px 10px rgb(30, 30, 30);
 }
 .element1{
-    border: solid fuchsia;
+    /* border: solid fuchsia; */
     width: 33%;
-    height: 400px;
+    height: 350px;
     margin-top: 10px;
     padding-left: 20px;
+    padding-top: 30px;
     font-family: Bodoni Moda;
-    font-size: 55px;
+    font-size: 50px;
     display: flex;
     text-align: right;
-    color: whitesmoke;
+    color: rgb(245, 245, 245);
+    text-shadow:
+    1px 1px 2px rgb(16, 107, 137),
+    0 0 1em whitesmoke,
+    0 0 0.2em rgb(16, 107, 137);
 }
 .element2{
-    border: solid blue;
+    /* border: solid blue; */
     width: 33%;
-    height: 400px;
-    margin-top: 10px;
-    font-size: 15px;
+    height: 350px;
+    margin-top: 20px;
+    font-size: 13px;
     font-family: Bodoni Moda;
-    color: rgb(201, 199, 199);
+    color: rgb(250, 245, 245);
     padding: 20px;
     display: flex;
-    justify-content: space-evenly;
-    line-height: 2.5;
+    flex-direction: column;
+    /* line-height: 2.5; */
 }
 .element3{
-    border: solid green;
+    /* border: solid green; */
     width: 33%;
-    height: 400px;
-    margin-top: 10px;
+    height: 350px;
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-top: 40px;
 }

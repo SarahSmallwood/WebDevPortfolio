@@ -1,5 +1,5 @@
 .skills{
-    border: solid #303030;
+    border: solid rgb(12, 82, 106);
     background-color: whitesmoke;
     margin-top: 20px;
     border-width: 0.4em;
@@ -13,8 +13,8 @@
 .skillHead{
     font-weight: 700;
     height: 40px;
-    border: solid #303030;
-    background-color: #303030;
+    border: solid rgb(12, 82, 106);
+    background-color: rgb(12, 82, 106);
     font-size: 20px;
     color: whitesmoke;
     font-family: Bodoni Moda;
